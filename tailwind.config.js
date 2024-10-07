@@ -61,40 +61,7 @@ module.exports = {
             },
           },
         },
-        light: {
-          colors: {
-            background: "#FFFFFF", // Fondo claro principal
-            foreground: "#000000", // Color del texto y elementos en primer plano
-            primary: {
-              50: "#E9E3F9",
-              100: "#D4C7F2",
-              200: "#B59EE6",
-              300: "#9675DA",
-              400: "#774DCE",
-              500: "#5E2DC3", // Color principal en modo claro
-              600: "#5026A4",
-              700: "#421E85",
-              800: "#341766",
-              900: "#260F47",
-              DEFAULT: "#5E2DC3", // Color primario por defecto
-              foreground: "#ffffff", // Color de texto sobre botones primarios
-            },
-            focus: "#9675DA", // Color de foco
-          },
-          layout: {
-            disabledOpacity: "0.3",
-            radius: {
-              small: "4px",
-              medium: "6px",
-              large: "8px",
-            },
-            borderWidth: {
-              small: "1px",
-              medium: "2px",
-              large: "3px",
-            },
-          },
-        },
+        light: {},
       },
     }),
   ],
